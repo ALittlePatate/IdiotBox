@@ -4058,13 +4058,13 @@ local function Visuals(v)
        local friendstatus = pm.GetFriendStatus(v)
        -- Little changes here, if the player is the murderer then his box will be red
        -- if he is the bystander, his box will be green
-       if (v:HasWeapon("weapon_mu_knife")) then
+        if (v:HasWeapon("weapon_mu_knife")) then
            surface.SetDrawColor(murderer_col)
            surface.DrawOutlinedRect(pos.x - w / 2, pos.y - h, w, h)
            surface.SetDrawColor(ocol)
            surface.DrawOutlinedRect(pos.x - w / 2 - 1, pos.y - h - 1, w + 2, h + 2)
            surface.DrawOutlinedRect(pos.x - w / 2 + 1, pos.y - h + 1, w - 2, h - 2)
-        if (v:HasWeapon("weapon_mu_magnum")) then
+        elseif (v:HasWeapon("weapon_mu_magnum")) then
            surface.SetDrawColor(bystander_col)
            surface.DrawOutlinedRect(pos.x - w / 2, pos.y - h, w, h)
            surface.SetDrawColor(ocol)
