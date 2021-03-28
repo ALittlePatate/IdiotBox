@@ -1,6 +1,6 @@
-//----------IdiotBox v6.7.2-----------//
-//--------------By Phizz-------------//
-//--Minor changes by ALittlePatate--//
+//----------IdiotBox v6.7.2-u1-----------//
+//--------------By Phizz----------------//
+//--Minor changes by ALittlePatate-----//
 
 
 
