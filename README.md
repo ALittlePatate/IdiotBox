@@ -2,7 +2,7 @@
 This is an unofficial source code for IdiotBox, credits for the base to [bhozz01](https://github.com/bhozz01).
 
 ## So, what's new ?
-Nothing really new here, except some minors changings.
+Nothing really new here, except some minors changes.
 
 # Changelog
 ## v6.7.2-u1
